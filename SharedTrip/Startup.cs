@@ -1,13 +1,13 @@
-﻿namespace SharedTrip
-{
-    using BasicWebServer.Server;
-    using BasicWebServer.Server.Routing;
-    using SharedTrip.Contracts;
-    using SharedTrip.Data;
-    using SharedTrip.Data.Common;
-    using SharedTrip.Services;
-    using System.Threading.Tasks;
+using BasicWebServer.Server;
+using BasicWebServer.Server.Routing;
+using SharedTrip.Contracts;
+using SharedTrip.Data;
+using SharedTrip.Data.Common;
+using SharedTrip.Services;
+using System.Threading.Tasks;
 
+namespace SharedTrip
+{
     public class Startup
     {
         public static async Task Main()
