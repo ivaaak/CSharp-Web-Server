@@ -1,8 +1,8 @@
-﻿namespace SharedTrip.Data
-{
-    using Microsoft.EntityFrameworkCore;
-    using SharedTrip.Data.Models;
+using Microsoft.EntityFrameworkCore;
+using SharedTrip.Data.Models;
 
+namespace SharedTrip.Data
+{
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext()
