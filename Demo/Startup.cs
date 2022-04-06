@@ -1,12 +1,12 @@
-﻿namespace MyWebServer.Demo
-{
-    using System.Threading.Tasks;
-    using MyWebServer;
-    using MyWebServer.Controllers;
-    using MyWebServer.Demo.Controllers;
-    using MyWebServer.Demo.Data;
-    using MyWebServer.Results.Views;
+using System.Threading.Tasks;
+using MyWebServer;
+using MyWebServer.Controllers;
+using MyWebServer.Demo.Controllers;
+using MyWebServer.Demo.Data;
+using MyWebServer.Results.Views;
 
+namespace MyWebServer.Demo
+{
     public class Startup
     {
         public static async Task Main()
