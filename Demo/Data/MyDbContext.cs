@@ -1,8 +1,8 @@
-﻿namespace MyWebServer.Demo.Data
-{
-    using System.Collections.Generic;
-    using MyWebServer.Demo.Data.Models;
+using System.Collections.Generic;
+using MyWebServer.Demo.Data.Models;
 
+namespace MyWebServer.Demo.Data
+{
     public class MyDbContext : IData
     {
         public MyDbContext()
