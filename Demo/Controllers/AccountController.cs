@@ -1,9 +1,9 @@
-﻿namespace MyWebServer.Demo.Controllers
-{
-    using MyWebServer.Controllers;
-    using MyWebServer.Http;
-    using System;
+using MyWebServer.Controllers;
+using MyWebServer.Http;
+using System;
 
+namespace MyWebServer.Demo.Controllers
+{
     public class AccountController : Controller
     {
         public HttpResponse Login()
