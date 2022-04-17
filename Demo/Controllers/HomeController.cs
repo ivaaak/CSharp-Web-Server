@@ -1,10 +1,10 @@
-﻿namespace MyWebServer.Demo.Controllers
-{
-    using System;
-    using MyWebServer.Demo.Models.Animals;
-    using MyWebServer.Controllers;
-    using MyWebServer.Http;
+using System;
+using MyWebServer.Demo.Models.Animals;
+using MyWebServer.Controllers;
+using MyWebServer.Http;
 
+namespace MyWebServer.Demo.Controllers
+{
     public class HomeController : Controller
     {
         public HttpResponse Index() => Text("Hello from Ivo!");
