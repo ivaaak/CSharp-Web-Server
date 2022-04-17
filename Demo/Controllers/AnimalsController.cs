@@ -1,9 +1,9 @@
-﻿namespace MyWebServer.Demo.Controllers
-{
-    using MyWebServer.Demo.Models.Animals;
-    using MyWebServer.Controllers;
-    using MyWebServer.Http;
+using MyWebServer.Demo.Models.Animals;
+using MyWebServer.Controllers;
+using MyWebServer.Http;
 
+namespace MyWebServer.Demo.Controllers
+{
     public class AnimalsController : Controller
     {
         public HttpResponse Cats()
