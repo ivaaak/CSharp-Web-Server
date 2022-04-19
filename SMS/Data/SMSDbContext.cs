@@ -1,15 +1,11 @@
-﻿namespace SMS.Data
-{
-    using Microsoft.EntityFrameworkCore;
-    using SMS.Data.Models;
+using Microsoft.EntityFrameworkCore;
+using SMS.Data.Models;
 
-    // ReSharper disable once InconsistentNaming
+namespace SMS.Data
+{
     public class SMSDbContext : DbContext
     {
-        public SMSDbContext()
-        {
-            
-        }
+        public SMSDbContext(){}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
