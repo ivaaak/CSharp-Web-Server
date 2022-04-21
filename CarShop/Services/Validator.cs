@@ -1,15 +1,14 @@
-﻿namespace CarShop.Services
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+using CarShop.Models.Cars;
+using CarShop.Models.Issues;
+using CarShop.Models.Users;
+using static Data.DataConstants;
+
+namespace CarShop.Services
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text.RegularExpressions;
-    using CarShop.Models.Cars;
-    using CarShop.Models.Issues;
-    using CarShop.Models.Users;
-
-    using static Data.DataConstants;
-
     public class Validator : IValidator
     {
         public ICollection<string> ValidateUser(RegisterUserFormModel user)
