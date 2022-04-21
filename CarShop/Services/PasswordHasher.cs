@@ -1,8 +1,8 @@
-﻿namespace CarShop.Services
-{
-    using System.Security.Cryptography;
-    using System.Text;
+using System.Security.Cryptography;
+using System.Text;
 
+namespace CarShop.Services
+{
     public class PasswordHasher : IPasswordHasher
     {
         public string HashPassword(string password)
