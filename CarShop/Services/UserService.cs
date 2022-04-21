@@ -1,8 +1,8 @@
-﻿namespace CarShop.Services
-{
-    using System.Linq;
-    using CarShop.Data;
+using System.Linq;
+using CarShop.Data;
 
+namespace CarShop.Services
+{
     public class UserService : IUserService
     {
         private readonly CarShopDbContext data;
