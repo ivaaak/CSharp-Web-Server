@@ -1,10 +1,9 @@
-﻿namespace CarShop.Data.Models
+using System;
+using System.ComponentModel.DataAnnotations;
+using static DataConstants;
+
+namespace CarShop.Data.Models
 {
-    using System;
-    using System.ComponentModel.DataAnnotations;
-
-    using static DataConstants;
-
     public class User
     {
         [Key]
