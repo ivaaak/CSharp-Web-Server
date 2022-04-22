@@ -1,10 +1,10 @@
-﻿namespace CarShop.Services
-{
-    using System.Collections.Generic;
-    using CarShop.Models.Cars;
-    using CarShop.Models.Issues;
-    using CarShop.Models.Users;
+using System.Collections.Generic;
+using CarShop.Models.Cars;
+using CarShop.Models.Issues;
+using CarShop.Models.Users;
 
+namespace CarShop.Services
+{
     public interface IValidator
     {
         ICollection<string> ValidateUser(RegisterUserFormModel model);
