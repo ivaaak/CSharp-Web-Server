@@ -1,8 +1,8 @@
-﻿namespace CarShop.Data
-{
-    using CarShop.Data.Models;
-    using Microsoft.EntityFrameworkCore;
+using CarShop.Data.Models;
+using Microsoft.EntityFrameworkCore;
 
+namespace CarShop.Data
+{
     public class CarShopDbContext : DbContext
     {
         public DbSet<User> Users { get; init; }
