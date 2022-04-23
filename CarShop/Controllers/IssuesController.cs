@@ -1,13 +1,13 @@
-﻿namespace CarShop.Controllers
-{
-    using CarShop.Data;
-    using CarShop.Data.Models;
-    using CarShop.Models.Issues;
-    using CarShop.Services;
-    using MyWebServer.Controllers;
-    using MyWebServer.Http;
-    using System.Linq;
+using CarShop.Data;
+using CarShop.Data.Models;
+using CarShop.Models.Issues;
+using CarShop.Services;
+using MyWebServer.Controllers;
+using MyWebServer.Http;
+using System.Linq;
 
+namespace CarShop.Controllers
+{
     public class IssuesController : Controller
     {
         private readonly IUserService users;
