@@ -1,13 +1,13 @@
-﻿namespace CarShop.Controllers
-{
-    using System.Linq;
-    using CarShop.Data;
-    using CarShop.Data.Models;
-    using CarShop.Models.Cars;
-    using CarShop.Services;
-    using MyWebServer.Controllers;
-    using MyWebServer.Http;
+using System.Linq;
+using CarShop.Data;
+using CarShop.Data.Models;
+using CarShop.Models.Cars;
+using CarShop.Services;
+using MyWebServer.Controllers;
+using MyWebServer.Http;
 
+namespace CarShop.Controllers
+{
     public class CarsController : Controller
     {
         private readonly IValidator validator;
