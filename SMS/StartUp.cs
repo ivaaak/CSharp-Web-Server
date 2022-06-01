@@ -1,12 +1,13 @@
-﻿namespace SMS
+using BasicWebServer.Server;
+using BasicWebServer.Server.Routing;
+using Sms.Data.Common;
+using SMS.Contracts;
+using SMS.Data;
+using SMS.Services;
+using System.Threading.Tasks;
+
+namespace SMS
 {
-    using BasicWebServer.Server;
-    using BasicWebServer.Server.Routing;
-    using Sms.Data.Common;
-    using SMS.Contracts;
-    using SMS.Data;
-    using SMS.Services;
-    using System.Threading.Tasks;
 
     public class StartUp
     {
